@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Maria Savina](https://up.htmlacademy.ru/htmlcss/25/user/1078617).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Артёмов] (https://htmlacademy.ru/profile/firefoxic).
 
 ---
 
