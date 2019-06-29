@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./fonts/Gilroy/stylesheet.css" />
+  <link rel="stylesheet" type="text/css" href="./fonts/OpenSans/stylesheet.css" />
+</head>
 
-  </body>
+<body>
+  <header class="header">
+    <div class="header__left">
+      <a class="logo" href=""><img src="./img/logo.png"></a>
+      <form class="search-form">
+        <button class="search-button"><img src="./img/search.png"></button>
+        <input type="text" id="search" name="search-button" placeholder="Поиск по сайту">
+      </form>
+      <div class="header__catalogue"><a href=""><span>Каталог товаров</span></a></div>
+    </div>
+    <div class="header__right">
+      <nav class="header__nav nav">
+        <div class="nav__top">
+          <div class="nav__top-left">
+            <a href="">
+              <div><img src="./img/user.png"> Войти</div>
+            </a>
+          </div>
+          <div class="nav__top-right">
+            <a href="">
+              <div><img src="./img/compare.png"> Сравнить</div>
+            </a>
+            <a href="">
+              <div><img src="./img/cart.png"> Корзина</div>
+            </a>
+          </div>
+        </div>
+        <div class="nav__bot">
+          <div class="nav__bot-left">
+            <a href="">
+              <div>Доставка</div>
+            </a>
+            <a href="">
+              <div>Гарантия</div>
+            </a>
+          </div>
+          <div class="nav__bot-right">
+            <a href="">
+              <div>Контакты</div>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="popup-menu" style="display: none;">height:143px;</section>
+  <section class="main-hero">
+    <div class="main-hero__top">
+      <span>01</span>
+    </div>
+    <div class="main-hero__content">
+      <div class="main-hero__left" style="background: url(./img/slider-1.png) no-repeat center center;background-size: contain;"></div>
+      <div class="main-hero__right">
+        <div class="main-hero__white-rectangle"></div>
+        <h2 class="main-hero__heading">Делай селфи, <br>  как Бен Стиллер!</h2>
+        <p class="main-hero__desc">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+        </p>
+        <div class="main-hero__controls">
+          <button class="controls__more">Подробнее</button>
+          <div class="controls__slide-change">три точечки</div>
+        </div>
+        <div class="main-hero__features">
+          <div class="features__item">
+            <span class="features__content">8,5 м</span>
+            <p class="features__name">Длина палки</p>
+          </div>
+          <div class="features__item">
+            <span class="features__content">5 кг</span>
+            <p class="features__name">Вес палки</p>
+          </div>
+          <div class="features__item">
+            <span class="features__content">Карбон</span>
+            <p class="features__name">Материал</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   	<section class="main-hero">
+  		<div class="main-hero__top">
+  			<span>02</span>
+  		</div>
+  		<div class="main-hero__content">
+  		<div class="main-hero__left" style="background: url(./img/slider-2.png) no-repeat center center;background-size: contain;"></div>
+  		<div class="main-hero__right">
+  			<div class="main-hero__white-rectangle"></div>
+  			<h2 class="main-hero__heading">Худеем <br>правильно!</h2>
+  			<p class="main-hero__desc">Мотивирующие фитнес-браслеты помогут найти в себе силы  не пропускать занятия и соблюдать диету.</p>
+  			<div class="main-hero__controls">
+  				<button class="controls__more">Подробнее</button>
+  				<div class="controls__slide-change">три точечки</div>
+  			</div>
+  			<div class="main-hero__features">
+  				<div class="features__item">
+  					<span class="features__content">48 часов</span>
+  					<p class="features__name">Без подзарядки</p>
+  				</div>
+  				<div class="features__item">
+  					<span class="features__content"></span>
+  					<p class="features__name"></p>
+  				</div>
+  				<div class="features__item">
+  					<span class="features__content"></span>
+  					<p class="features__name"></p>
+  				</div>	
+  			</div>
+  		</div>
+  		</div>
+  	</section> -->
+  <!-- <section class="main-hero">
+  		<div class="main-hero__top">
+  			<span>03</span>
+  		</div>
+  		<div class="main-hero__content">
+  		<div class="main-hero__left" style="background: url(./img/slider-3.png) no-repeat center center;background-size: contain;">
+
+  		</div>
+  		<div class="main-hero__right">
+  			<div class="main-hero__white-rectangle"></div>
+  			<h2 class="main-hero__heading">Порхает как бабочка,  жалит как пчела!</h2>
+  			<p class="main-hero__desc">Этот обычный, на первый взгляд, квадрокоптер оснащен  мощным лазером, замаскированным под стандартную камеру. </p>
+  			<div class="main-hero__controls">
+  				<button class="controls__more">Подробнее</button>
+  				<div class="controls__slide-change">три точечки</div>
+  			</div>
+  			<div class="main-hero__features">
+  				<div class="features__item">
+  					<span class="features__content">800 м</span>
+  					<p class="features__name">Дальность полета</p>
+  				</div>
+  				<div class="features__item">
+  					<span class="features__content">50 м</span>
+  					<p class="features__name">Радиус поражения</p>
+  				</div>
+  				<div class="features__item">
+  					<span class="features__content"></span>
+  					<p class="features__name"></p>
+  				</div>	
+  			</div>
+  		</div>
+  		</div>
+  	</section> -->
+  <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+</body>
+
 </html>
